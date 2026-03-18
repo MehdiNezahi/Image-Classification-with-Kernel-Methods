@@ -1,0 +1,46 @@
+{
+  "weights": {
+    "raw_means": 0.25,
+    "raw_stds": 0.75,
+    "opp_means": 1.0,
+    "opp_stds": 0.5,
+    "hog_mean": 2.5,
+    "hog_max": 2.0,
+    "grad_max": 0.25,
+    "local_energy": 0.75,
+    "census": 1.2,
+    "laplace": 1.2,
+    "opp_grad": 1.2,
+    "orient_energy": 0.8
+  },
+  "gamma_mult": {
+    "raw_means": 1.0,
+    "raw_stds": 0.5,
+    "opp_means": 1.0,
+    "opp_stds": 0.75,
+    "hog_mean": 1.5,
+    "hog_max": 2.0,
+    "grad_max": 1.5,
+    "local_energy": 1.0,
+    "census": 1.5,
+    "laplace": 1.25,
+    "opp_grad": 1.5,
+    "orient_energy": 1.2
+  },
+  "reg": 0.3,
+  "best_val_acc": 0.667,
+  "kernel_type": {
+    "raw_means": "rbf",
+    "raw_stds": "rbf",
+    "opp_means": "rbf",
+    "opp_stds": "rbf",
+    "hog_mean": "chi2",
+    "hog_max": "chi2",
+    "grad_max": "rbf",
+    "local_energy": "rbf",
+    "census": "chi2",
+    "laplace": "rbf",
+    "opp_grad": "chi2",
+    "orient_energy": "rbf"
+  }
+}
