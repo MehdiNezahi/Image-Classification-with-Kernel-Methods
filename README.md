@@ -21,7 +21,7 @@ python final_code/make_submission_shift_tta.py --mode submit --json final_code/p
 ```
 
 This uses:
-- tuned JSON parameters (`params_final.json`)
+- tuned JSON parameters  (`params_final.json`) 
 - fixed shift test-time augmentation averaging (`shift_weight=1.0`)
 
 ## B) Retune/train from scratch, then submit
