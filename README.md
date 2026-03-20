@@ -1,19 +1,19 @@
-# Final Code (66.5% LB Submission)
+# Final Code - 66.5% Leaderboard Submission
 
-This folder contains the exact code/assets needed to:
-1. retrain/tune the model pipeline, and
+This folder contains all the code and files needed to:
+1. retrain/tune the model pipeline.
 2. regenerate the final submitted CSV.
 
 Files in this folder:
 - `train_tune.py` (tuning/training pipeline)
-- `make_submission.py` (JSON-driven submission pipeline)
+- `make_submission.py` (submission script using a JSON parameter file)
 - `make_submission_shift_tta.py` (final shift-TTA submission generator)
 - `params_final.json` (the tuned parameters used for the final submission)
 
 ## Important
-Run commands from the **repository root** (the folder containing `Xtr.csv`, `Ytr.csv`, `Xte.csv`).
+Run commands from the **repository root**, the folder containing `Xtr.csv`, `Ytr.csv`, `Xte.csv`.
 
-## A) Regenerate the exact final submitted model CSV (recommended)
+## A) Regenerate the exact final submitted model CSV:
 This reproduces the final approach used for the best leaderboard result:
 
 ```bash
