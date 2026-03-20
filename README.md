@@ -24,7 +24,7 @@ This uses:
 - tuned JSON parameters  (`params_final.json`) 
 - fixed shift test-time augmentation averaging (`shift_weight=1.0`)
 
-## B) Retune/train from scratch, then submit
+## B) If desired,  retune an train from scratch, then submit
 If needed, retune parameters:
 
 ```bash
