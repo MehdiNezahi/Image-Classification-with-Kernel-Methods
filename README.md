@@ -37,7 +37,9 @@ Then generate submission from the regenerated JSON:
 python final_code/make_submission_shift_tta.py --mode submit --json final_code/params_regenerated.json --shift-weight 1.0 --output final_code/submission_from_regenerated_params.csv
 ```
 
-## Notes on reproducibility
-- The exact final submission regeneration (Section A) is deterministic given the provided JSON and fixed augmentation settings.
-- The scratch retuning path (Section B) uses fixed seeds in code but may still vary slightly across environments/BLAS backends.
+# Notes on reproducibility
+
+- The command in Section A should reproduce the final submission exactly, since it uses the provided tuned JSON file and fixed test-time augmentation settings.
+
+- If you retune from scratch as in Section B, you should get very similar results, but they may not be perfectly identical on every machine. This is because small numerical differences can appear across environments and linear algebra backends.
 
