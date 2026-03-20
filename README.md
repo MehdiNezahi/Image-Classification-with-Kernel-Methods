@@ -25,7 +25,7 @@ This uses:
 - fixed shift test-time augmentation averaging (`shift_weight=1.0`)
 
 ## B) Retune/train from scratch, then submit
-If needed, retune parameters on the fixed local split protocol (80/20 stratified, seed 42):
+If needed, retune parameters:
 
 ```bash
 python final_code/train_tune.py --mode validate --params final_code/params_regenerated.json
